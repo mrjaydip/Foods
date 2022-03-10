@@ -1,0 +1,29 @@
+.first_div {
+  text-align: center;
+  background: black;
+}
+body {
+  background: black;
+}
+.first_div table tr:first-child {
+  border: none;
+  border-bottom: 2px solid black;
+}
+.first_div table tr:last-child {
+  border: none;
+  border-top: 2px solid black;
+}
+.first_div table tr td:first-child {
+  border-left: none;
+}
+.first_div table {
+  border: 1px solid crimson;
+}
+.first_div table tr td {
+  border-left: 2px solid black;
+}
+.first_div table tr td input {
+  padding: 40px 50px;
+  border: none;
+  /* background-color: cadetblue; */
+}
